@@ -1,11 +1,8 @@
 {
-  "homepage": "https://fggndbasho.github.io/fggndbasho",
   "name": "craftzdog-homepage",
   "version": "1.0.0",
-  "description": "Fernando García Gómez Sitio web",
+  "description": "Takuya's website",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
@@ -13,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Fernando García",
+  "author": "Takuya Matsuyama",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
@@ -32,10 +29,5 @@
     "eslint": "^8.22.0",
     "eslint-config-next": "^12.2.5",
     "prettier": "^2.7.1"
-  },
-  "main": "next.config.js",
-  "directories": {
-    "doc": "doc",
-    "lib": "lib"
   }
 }
