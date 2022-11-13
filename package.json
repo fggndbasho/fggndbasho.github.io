@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "description": "Fernando García Gómez Sitio web",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
